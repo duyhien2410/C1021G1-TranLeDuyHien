@@ -1,0 +1,15 @@
+BEGIN
+	INPUT A, B, C
+		IF A > B AND A > C
+		DISPLAY A MAX
+		END IF
+			IF A < B OR A < C
+				B < C 
+				DISPLAY B MAX
+			ELSE
+				DISPLAY C MAX
+			END IF
+END
+			
+			
+	
