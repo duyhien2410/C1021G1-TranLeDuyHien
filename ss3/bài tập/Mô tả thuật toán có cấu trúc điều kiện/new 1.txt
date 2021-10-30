@@ -1,0 +1,24 @@
+Begin
+	Input mark
+	If mark => 75
+	Display "Loai A"
+	End if
+		Else 
+		If	mark >= 60 and mark < 75
+		Display "loai B"
+		End if
+			Else
+			If mark >= 45 and mark < 60
+			Display "loai C"
+			End if
+				Else
+				If mark >= 35 and mark < 45
+				Display "loai D"
+				End if
+					Else 
+					If mark < 35
+					Display "loai E"
+End
+	
+				
+	
