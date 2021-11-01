@@ -1,14 +1,11 @@
 BEGIN
 	INPUT A, B, C
-		IF A > B AND A > C
-		DISPLAY A MAX
-		END IF
-			IF A < B OR A < C
-				B < C 
-				DISPLAY B MAX
-			ELSE
-				DISPLAY C MAX
-			END IF
+	A = MAX
+	IF B > MAX
+	DISPLAY B MAX
+	ELSE IF C > MAX
+	DISPLAY C MAX
+	ELSE DISPLAY A MAX
 END
 			
 			

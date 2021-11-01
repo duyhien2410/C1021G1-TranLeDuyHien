@@ -1,0 +1,17 @@
+Begin
+	Input 	a1, a2,..., an
+	Max = a1, i = 2
+	If i >= n
+	Display max
+	End if
+	While i < n
+		Do
+		If ai > max
+		max = ai
+		End if
+		i = i + 1
+		End do
+	Display max
+End
+				
+	
