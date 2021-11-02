@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Market Research Survey</h1>
+<p>Please take a few moments to complete this satisfaction survey.</p>
+<form action="linkserver" method="get">
+    <div>
+    What is your age range?<br>
+        <select name "age">
+        <option value="age">18-24</option>
+        <option value="age">25-34</option>
+        <option value="age">35-50</option>
+        <option value="age">50+</option>
+        </select>
+    </div><br>
+    <div>
+    What is your yearly income range?<br>
+    <select name="income">
+        <option value="dollar">$0-$25000</option>
+        <option value="dollar">$25001-$50000</option>
+        <option value="dollar">$50001-$100000</option>
+        <option value="dollar">$100000+</option>
+    </select>
+    </div><br>
+    <div>
+        <table>
+            <tr>
+                <th>Gender Identity</th>
+            </tr>
+            <tr>
+        <td><label><input type="radio" name="gender" value="male">Male</label><br></td>
+            </tr>
+            <tr>
+        <td><label><input type="radio" name="gender" value="female">Female</label></td>
+            </tr>
+            <tr>
+        <td><label><input type="radio" name="gender" value="nonbinary">Nonbinary</label></td>
+            </tr>
+            <tr>
+        <td><label><input type="radio" name="gender" value="other">Other<br>
+        <input type="text" name="other"></label></td>
+            </tr>
+
+        </table>
+    </div><br>
+    <div>
+        Which of the following products have your purchased in the last 2 months. Please check all that apply.<br>
+        <label><input type="checkbox" name="bought">Product 1</label><br>
+        <label><input type="checkbox" name="bought">Product 2</label><br>
+        <label><input type="checkbox" name="bought">Product 3</label>
+    </div><br>
+    <div>
+        How offen would you use our new product?<br>
+        <label><input type="radio" name="use" value="daily">Daily</label><br>
+        <label><input type="radio" name="use" value="Weekly">Weekly</label><br>
+        <label><input type="radio" name="use" value="Monthly">Monthly</label><br>
+    </div><br>
+    <div>
+        What would you pay for the new product?<br>
+        <tr>
+            <td rowspan="2">$</td>
+            <td><input type="text"></td>
+            .
+            <td><input type="text"></td>
+        </tr><br>
+
+        <tr>
+            <td>Dollars</td>
+            <td>Cents</td>
+        </tr>
+    </div>
+</form>
+
+</body>
+</html>
