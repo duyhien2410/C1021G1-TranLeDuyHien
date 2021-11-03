@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+       table{
+           table-layout: fixed;
+           border-collapse: collapse;
+           text-align: center;
+       }
+    </style>
 </head>
 <body>
 <h1>Market Research Survey</h1>
@@ -27,25 +34,12 @@
     </select>
     </div><br>
     <div>
-        <table>
-            <tr>
-                <th>Gender Identity</th>
-            </tr>
-            <tr>
-        <td><label><input type="radio" name="gender" value="male">Male</label><br></td>
-            </tr>
-            <tr>
-        <td><label><input type="radio" name="gender" value="female">Female</label></td>
-            </tr>
-            <tr>
-        <td><label><input type="radio" name="gender" value="nonbinary">Nonbinary</label></td>
-            </tr>
-            <tr>
-        <td><label><input type="radio" name="gender" value="other">Other<br>
-        <input type="text" name="other"></label></td>
-            </tr>
-
-        </table>
+        Gender Identity<br>
+        <label><input type="radio" name="gender" value="male">Male</label><br>
+        <label><input type="radio" name="gender" value="female">Female</label><br>
+        <label><input type="radio" name="gender" value="nonbinary">Nonbinary</label><br>
+        <label><input type="radio" name="gender" value="other">Other<br>
+        <input type="text" name="other"></label>
     </div><br>
     <div>
         Which of the following products have your purchased in the last 2 months. Please check all that apply.<br>
@@ -60,20 +54,6 @@
         <label><input type="radio" name="use" value="Monthly">Monthly</label><br>
     </div><br>
     <div>
-        What would you pay for the new product?<br>
-        <tr>
-            <td rowspan="2">$</td>
-            <td><input type="text"></td>
-            .
-            <td><input type="text"></td>
-        </tr><br>
-
-        <tr>
-            <td>Dollars</td>
-            <td>Cents</td>
-        </tr>
-    </div>
-    <div>
         <table>
             <tr>
                 What would you pay for the new product?</br>
@@ -84,6 +64,45 @@
             </tr>
         </table>
     </div>
+    <div>
+        What features would you like to see in the new product<br>
+        <textarea cols="100" rows="6"></textarea>
+
+    </div>
+    <div>
+        <p>Please rate your level of agreement with the following statements.</p>
+        <table border="1" width="70%">
+            <tr style="background-color: bisque">
+                <th></th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly agree</th>
+            </tr>
+            <tr>
+                <td>Our products are priced fairly</td>
+                <td><label><input type="radio" name="pricedfairly"><br>1</label></td>
+                <td><label><input type="radio" name="pricedfairly"><br>2</label></td>
+                <td><label><input type="radio" name="pricedfairly"><br>3</label></td>
+                <td><label><input type="radio" name="pricedfairly"><br>4</label></td>
+            </tr>
+            <tr style="background-color: bisque">
+                <td>Our products are high quality</td>
+                <td><label><input type="radio" name="highquality"><br>1</label></td>
+                <td><label><input type="radio" name="highquality"><br>2</label></td>
+                <td><label><input type="radio" name="highquality"><br>3</label></td>
+                <td><label><input type="radio" name="highquality"><br>4</label></td>
+            </tr>
+            <tr>
+                <td>You would recommend our product to a friend or coworker.</td>
+                <td><label><input type="radio" name="recommed"><br>1</label></td>
+                <td><label><input type="radio" name="recommed"><br>2</label></td>
+                <td><label><input type="radio" name="recommed"><br>3</label></td>
+                <td><label><input type="radio" name="recommed"><br>4</label></td>
+            </tr>
+        </table>
+    </div><br>
+    <input type="submit" value="Submit">
 </form>
 
 </body>
