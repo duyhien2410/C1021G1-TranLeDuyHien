@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng chuyển đổi tiền tệ</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            Amount
+        </td>
+        <td>
+            From Currency
+        </td>
+        <td>
+            To Currency
+        </td>
+    </tr>
+    <tr>
+        <td><input type="text" value=" " name="amount" id="amount"></td>
+        <td>
+            <select id="from">
+                <option name="FrCurrency" value="VietNam" >VietNam</option>
+                <option name="FrCurrency" value="USD" >USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="to">
+                <option name="ToCurrency" value="USD" >USD</option>
+                <option name="ToCurrency" value="VietNam" >VietNam</option>
+            </select>
+        </td>
+        <td><input style="background-color: mediumpurple" type="button" name="Convert" value="Convert" id="Covert" onclick="result.value =ChuyenDoi()"></td>
+
+
+    </tr>
+    <tr style="color: aqua">
+        <td>Result</td>
+        <td> <input type="text" name="Result" value="" id="result"></td>
+    </tr>
+</table>
+<script>
+    function ChuyenDoi() {
+        let a = parseInt(document.getElementById("amount").value);
+        let b = document.getElementById("from");
+        let c = document.getElementById("to");
+        let convert;
+        if( b.value == "USD" && c.value == "VietNam"){
+            convert = a*23000
+        }else if (b.value == "VietNam" && c.value == "USD"){
+            convert = a/23000
+        }
+        return convert;
+    }
+</script>
+</body>
+</html>
