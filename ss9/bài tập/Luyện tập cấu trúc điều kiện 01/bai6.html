@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sales=parseInt(prompt("Nhập mức doanh số bán hàng"));
+    let product=20000;
+    let cms;
+    if (sales>=1000){
+        cms=(sales*product)/100*10
+        alert("Hoa hồng nhận được là "+cms+" vnd");
+    } else if (sales<1000 && sales>=800){
+        cms=(sales*product)/100*5
+        alert("Hoa hồng nhận được là "+cms+" vnd");
+    } else {
+        alert("Bạn không đạt đủ doanh số");
+    }
+</script>
+
+</body>
+</html>

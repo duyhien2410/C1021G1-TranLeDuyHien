@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let loan=Number(prompt("Nhập số tiền vay ngân hàng"));
+    let month=Number(prompt("Nhập kỳ hạn vay"));
+    let interest=(loan/100*12)/month;
+    let interest2=(loan/12)+interest
+
+    switch (month) {
+        case 24:
+            alert("Số lãi trả hằng tháng là: "+interest+" vnd và số tiền phải trả hằng tháng là: " +interest2+" vnd");break
+        case 12:
+            alert("Số lãi trả hằng tháng là: "+interest+" vnd và số tiền phải trả hằng tháng là: " +interest2+" vnd");break
+        case 6:
+            alert("Số lãi trả hằng tháng là: "+interest+" vnd và số tiền phải trả hằng tháng là: " +interest2+" vnd");break
+        case 3:
+            alert("Số lãi trả hằng tháng là: "+interest+" vnd và số tiền phải trả hằng tháng là: " +interest2+" vnd");break
+
+    }
+
+</script>
+
+</body>
+</html>

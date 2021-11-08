@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=Number(prompt("Nhập điểm bài kiểm tra"));
+    let b=Number(prompt("Nhập điểm thi giữa kỳ"));
+    let c=Number(prompt("Nhập điểm thi cuối kỳ"));
+    let sum=a+b+c;
+    let gpa=sum/3;
+    if (gpa>=8){
+        alert("Điểm trung bình môn: "+gpa+" Học lực giỏi.");
+
+    } else if (gpa<8 && gpa>=6.5){
+        alert("Điểm trung bình môn: "+gpa+" Học lực khá.");
+    } else if (gpa<6.5 && gpa>=3.5){
+        alert("Điểm trung bình môn: "+gpa+" Học lực trung bình.");
+    } else {
+        alert("Điểm trung bình môn: "+gpa+" Học lực yếu.");
+    }
+</script>
+
+</body>
+</html>

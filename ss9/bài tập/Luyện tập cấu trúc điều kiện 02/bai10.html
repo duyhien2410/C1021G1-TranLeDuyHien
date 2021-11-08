@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let kWh=parseInt(prompt("Nhập vào số kWh đã sử dụng."));
+    let lv1=1500;
+    let lv2=1600;
+    let lv3=1700;
+    let lv4=2000;
+    let money;
+    if (kWh<51){
+        money=kWh*lv1;
+        alert("Tiền điện bạn phải trả là: "+ money +" vnd");
+    } else if (kWh>50 && kWh<101){
+        money=(50*lv1)+(kWh-50)*lv2;
+        alert("Tiền điện bạn phải trả là: "+ money +" vnd");
+    } else if (kWh>100 && kWh<201){
+        money=(50*lv1)+(50*lv2)+(kWh-100)*lv3;
+        alert("Tiền điện bạn phải trả là: "+ money +" vnd");
+    } else {
+        money=(50*lv1)+(50*lv2)+(100*lv3)+(kWh-200)*lv4;
+        alert("Tiền điện bạn phải trả là: "+ money +" vnd")
+    }
+
+
+</script>
+</body>
+</html>

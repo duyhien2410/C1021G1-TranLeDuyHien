@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let minutes=parseInt(prompt("Nhập số phút đã gọi."));
+    let costs=25000;//chi phí cố định.
+
+    //600 đồng cho 50 phút đầu tiên
+    //400 đồng cho 150 phút tiếp theo
+    //200 đồng cho bất kỳ phút nào sao 200 phút đầu tiên.
+    let money;
+    if (minutes<51){
+        money=costs+(minutes*600)
+        alert("Cước điện thoại của bạn là: " + money +" vnd");
+    } else if (minutes>50 && minutes<201){
+        money=costs+(50*600)+(minutes-50)*400
+        alert("Cước điện thoại của bạn là: " + money +" vnd");
+    } else {
+        money=costs+(50*600)+(150*400)+(minutes-200)*200;
+        alert("Cước điện thoại của bạn là: " + money +" vnd");
+    }
+
+
+</script>
+</body>
+</html>
