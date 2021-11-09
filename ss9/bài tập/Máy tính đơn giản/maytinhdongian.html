@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            text-align: center;
+            margin: auto;
+            background-color: mediumpurple;
+
+        }
+        .tbn{
+            width: 35px;
+            height: 32px;
+        }
+        #result{
+            height: 32px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td colspan="4"><input style="text-align: right" type="text" id="Result" value=""></td>
+        </tr>
+        <tr>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="1"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="2"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="3"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="+"></td>
+        </tr>
+        <tr>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="4"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="5"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="6"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="-"></td>
+        </tr>
+        <tr>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="7"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="8"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="9"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="*"></td>
+        </tr>
+        <tr>
+            <td><input class="tbn" type="button" onclick="Result.value='' " value="C"></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="0"></td>
+            <td><input class="tbn" type="button" onclick="Result.value=eval(Result.value)" value="="></td>
+            <td><input class="tbn" type="button" onclick="Result.value+=this.value" value="/"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
