@@ -5,6 +5,23 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+   let a=0 , b=0 , c=0;
+   let fibonacci="";
+   for (i=1; i<=20; i++){
+       if (i==1){
+           a=1
+           c=1
+           fibonacci += a + "<br>"
+       } else {
+           a=b+c
+           b=c
+           c=a
+           fibonacci += a + "<br>"
+       }
+   }
+   document.write(fibonacci);
+</script>
 
 
 </body>
