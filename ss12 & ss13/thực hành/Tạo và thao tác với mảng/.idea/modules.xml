@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tạo và thao tác với mảng.iml" filepath="$PROJECT_DIR$/.idea/Tạo và thao tác với mảng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tìm giá trị lớn nhất trong mảng/.idea/tìm giá trị lớn nhất trong mảng.iml" filepath="$PROJECT_DIR$/../tìm giá trị lớn nhất trong mảng/.idea/tìm giá trị lớn nhất trong mảng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tìm giá trị trong mảng/.idea/tìm giá trị trong mảng.iml" filepath="$PROJECT_DIR$/../tìm giá trị trong mảng/.idea/tìm giá trị trong mảng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tạo bàn cờ caro đơn giản/.idea/tạo bàn cờ caro đơn giản.iml" filepath="$PROJECT_DIR$/../tạo bàn cờ caro đơn giản/.idea/tạo bàn cờ caro đơn giản.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Đảo ngược các phần tử trong mảng/.idea/Đảo ngược các phần tử trong mảng.iml" filepath="$PROJECT_DIR$/../Đảo ngược các phần tử trong mảng/.idea/Đảo ngược các phần tử trong mảng.iml" />
+    </modules>
+  </component>
+</project>
