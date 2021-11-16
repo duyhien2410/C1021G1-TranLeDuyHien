@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrnum=[];
+    let arrnum10=[];
+    for (let i=0; i<10; i++){
+        arrnum[i]=prompt("Nhập số vào mảng");
+    }
+    document.write("mảng = ["+arrnum+"]<br>");
+    for (let i=0; i<arrnum.length; i++){
+        if (arrnum[i]>10){
+            arrnum10.push(arrnum[i])
+        }
+    }
+    document.write("Các phần tử lớn hơn 10 trong mảng = ["+arrnum10+"]")
+</script>
+</body>
+</html>
