@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[];
+    for (i=0; i<10; i++){
+        arr[i]=parseInt(prompt("Nhập phần tử "+(i+1)+" vào mảng:"));
+    }
+    document.write("Mảng vừa nhập =["+arr+"]<br>");
+    document.write("Sắp xếp phần tử trong mảng tăng dần =["+arr.sort(function (a,b) {return a-b})+"]");
+</script>
+
+</body>
+</html>

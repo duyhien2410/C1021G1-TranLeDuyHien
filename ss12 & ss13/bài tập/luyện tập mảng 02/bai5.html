@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=prompt("Nhập vào chuỗi a:");
+    let b=prompt("Nhập vào chuỗi b:");
+    let check= true ;
+    document.write("Chuỗi a = "+a+" và chuỗi b = "+b+"<br>");
+    if (a.length!=b.length){
+        document.write("Chuỗi a và chuỗi b không giống nhau");
+    } else {
+        for (i=0; i<a.length; i++){
+            for (j=0; j<b.length; j++){
+                if (a[i]==b[j]){
+                    check=true;
+                } else {
+                    check=false
+                }
+            }
+        }
+        if (check=false){
+            document.write("Chuỗi a và chuỗi b không giống nhau");
+        } else {
+            document.write("Chuỗi a và chuỗi b giống nhau");
+        }
+    }
+
+
+
+</script>
+
+</body>
+</html>

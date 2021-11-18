@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[];
+    let newarr=[];
+
+    for (i=0; i<10; i++){
+        arr[i]=parseInt(prompt("Nhập phần tử "+(i+1)+" vào mảng"));
+    }
+    document.write("Mảng vừa nhập =["+arr+"]<br>");
+
+    let V=parseInt(prompt("Nhập vào phần tử V"));
+    document.write("Phần tử V = "+V+"<br>");
+
+    for (i=0; i<arr.length; i++){
+        if (arr[i]!=V){
+            newarr.push(arr[i]);
+        }
+    }
+    document.write("V thuộc mảng và đã xoá V ra khỏi mảng."+"<br>"+"Mảng mới = ["+newarr+"]");
+
+</script>
+
+</body>
+</html>
