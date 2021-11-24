@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="result()">
+<script>
+    function input(a) {
+        if (a>0){
+            return true;
+        } else {
+            return false;
+        }
+    }
+    function result() {
+        let n=parseInt(prompt("Nhập vào 1 số nguyên"));
+        let check = input(n);
+        if (check){
+            alert(n+" là số nguyên dương");
+        } else {
+            alert(n+" không phải là số nguyên dương")
+        }
+    }
+</script>
+</body>
+</html>

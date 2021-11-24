@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="result()">
+<script>
+    function factorial(n) {
+        let mul=1;
+        for (i=1;i<=n;i++){
+            mul=mul*i;
+        }
+        return mul;
+    }
+    function result() {
+        let num=parseInt(prompt("Nhập vào một số nguyên dương để tính giai thừa:"))
+        if (num==0){
+            alert(num+" giai thừa = 1");
+        } else {
+            alert(num+" giai thừa = "+factorial(num));
+        }
+    }
+</script>
+</body>
+</html>

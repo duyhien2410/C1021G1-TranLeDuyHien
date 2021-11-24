@@ -8,5 +8,26 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột" />
+    <orderEntry type="module" module-name="tạo và gọi hàm" />
+    <orderEntry type="module" module-name="chuyển đổi nhiệt độ" />
+    <orderEntry type="module" module-name="tìm giá trị nhỏ nhất của mảng" />
+    <orderEntry type="module" module-name="hàm kiểm tra số nguyên tố" />
+    <orderEntry type="module" module-name="chuyển đổi giữa feet và meters" />
+    <orderEntry type="module" module-name="luyện tập tạo và sử dụng hàm 01" />
+    <orderEntry type="module" module-name="luyện tập tạo và sử dụng hàm 02" />
+    <orderEntry type="module" module-name="ứng dụng quản lý sản phẩm" />
+    <orderEntry type="module" module-name="kiểm tra từ đối xứng" />
+    <orderEntry type="module" module-name="Xây dựng lớp Date" />
+    <orderEntry type="module" module-name="Xây dựng lớp hình tròn" />
+    <orderEntry type="module" module-name="Funny circles" />
+    <orderEntry type="module" module-name="Xây dựng lớp mô tả hình chữ nhật" />
+    <orderEntry type="module" module-name="Xây dựng lớp mô tả Temperature" />
+    <orderEntry type="module" module-name="Xây dựng lớp mô tả điện thoại" />
+    <orderEntry type="module" module-name="Xây dựng lớp mô phỏng sự hoạt động của đèn pin" />
+    <orderEntry type="module" module-name="Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva" />
+    <orderEntry type="module" module-name="Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng công tắc và bóng đèn" />
+    <orderEntry type="module" module-name="Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột" />
+    <orderEntry type="module" module-name="Phát triển chương trình sử dụng Remote để điều khiển tivi" />
   </component>
 </module>

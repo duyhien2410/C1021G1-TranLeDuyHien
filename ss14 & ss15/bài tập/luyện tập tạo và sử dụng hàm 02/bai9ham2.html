@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="result()">
+<script>
+    function result() {
+        let arr=[];
+        let length=parseInt(prompt("Nhập vào độ dài mảng:"));
+        for (i=0; i<length; i++){
+            arr[i]=(prompt("Nhập vào phần tử "+(i+1)));
+        }
+        document.write("Mảng vừa nhập =["+arr+"]<br>");
+        let n=prompt("Nhập vào ký tự cần kiểm tra:");
+        let check=check1(n,arr);
+        if (check>0){
+            document.write("Số lần xuất hiện của "+n+" là "+check+" lần");
+        } else {
+            document.write(-1)
+        }
+
+    }
+    function check1(n,arr) {
+        let count=0;
+        for (i=0; i<arr.length; i++){
+            if (n==arr[i]){
+                count++;
+            }
+        }
+        if (count>0){
+            return count;
+        }
+    }
+</script>
+</body>
+</html>

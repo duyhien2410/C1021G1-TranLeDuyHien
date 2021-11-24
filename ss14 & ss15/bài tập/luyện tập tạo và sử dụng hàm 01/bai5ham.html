@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="cons()">
+<script>
+    function stars(star) {
+        var stars=["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+        let constellation=["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+        for (i=0;i<stars.length;i++){
+            if (star==stars[i]){
+                return constellation[i];
+            }
+        }
+    }
+    function cons() {
+        let star=prompt("Nhập vào tên ngôi sao:");
+        let cons=stars(star);
+        if (star==""){
+            alert("Không tìm thấy ngôi sao nào.");
+        } else {
+            alert("Ngôi sao "+star+" tương ứng với chòm sao "+cons);
+        }
+    }
+</script>
+
+</body>
+</html>
